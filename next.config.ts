@@ -1,5 +1,6 @@
 import type { NextConfig } from 'next';
 
+// Trigger CI/CD workflow ⬅️ added for GitHub Actions
 const nextConfig: NextConfig = {
   output: "export",                     // ⬅️ REQUIRED for static export
   images: {
